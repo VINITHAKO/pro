@@ -2,10 +2,10 @@
 vinit=input()
 kay=map(int,input().split())
 din=[]
-for i in kay:
-    cry=cin(i)
+for k in kay:
+    cry=cin(k)
     din.append(cry)
 sign=sorted(din)
 sign.reverse()
-for j in sign:
-    print(int(j,2))
+for l in sign:
+    print(int(l,2))
