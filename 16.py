@@ -1,12 +1,12 @@
 #a
-a1=int(input())
-c=list(map(int,input().split()))
-y=[1]*a1
-for i in range(a1):
+v1=int(input())
+d=list(map(int,input().split()))
+s=[1]*v1
+for i in range(v1):
     if i==0:
-        if c[i]>c[i+1]:
-            y[i]=y[i]+y[i+1]
+        if d[i]>d[i+1]:
+            s[i]=s[i]+s[i+1]
     elif i>0:
-        if c[i]>c[i-1]:
-            y[i]=y[i]+y[i-1]
-print(sum(y))
+        if d[i]>d[i-1]:
+            s[i]=s[i]+s[i-1]
+print(sum(s))
