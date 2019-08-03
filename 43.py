@@ -14,7 +14,7 @@ for i in range(0,vin-1):
         vv1[j] = c1[sb]
         kk += 1
       else:
-        vv1[i] = c1[kh]
+        vv1[i] = c1[sb]
         kk += 1
       sb += 1
 print(kk)
