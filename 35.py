@@ -5,7 +5,7 @@ b=0
 check=False
 while True:
     ch=v1[b]
-    for j in range(0,len(p1)-y):
+    for j in range(0,len(v1)-y):
         if ch in v1[j:j+y]:
             check=True
         else:
