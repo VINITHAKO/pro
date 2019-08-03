@@ -4,9 +4,9 @@ y=1
 b=0
 check=False
 while True:
-    ke=p1[b]
+    ch=p1[b]
     for j in range(0,len(p1)-y):
-        if ke in p1[j:j+y]:
+        if ch in p1[j:j+y]:
             check=True
         else:
             check=False
