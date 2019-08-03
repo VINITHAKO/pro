@@ -11,7 +11,7 @@ while True:
         else:
             check=False
             b+=1
-            if b>=len(l1):
+            if b>=len(p1):
               b=0
               y+=1
             break
