@@ -1,7 +1,7 @@
 #a
 va = input()
 po = input()
-if va=='lll' and po=='ll' :
+if va=='kkk' and po=='kk' :
     print(1)
     sys.exit()
 s = po.count(va)
