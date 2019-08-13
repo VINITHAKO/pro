@@ -1,0 +1,13 @@
+#a
+vb1,s1=list(map(int,input().split()))
+vb2,s2=list(map(int,input().split()))  
+vb3,s3=list(map(int,input().split()))  
+vb4,s4=list(map(int,input().split())) 
+a=s2-s1
+b=s3-s4
+c=vb3-vb2
+d=vb4=vb1
+if(a==b==c==d):
+  print("yes")
+else:
+  print("no")
