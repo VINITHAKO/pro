@@ -1,5 +1,5 @@
 v = input().split()
-v = list(set([*str("".join(n)).lower()]))
+v = list(set([*str("".join(v)).lower()]))
 s = 0
 a = "abcdefghijklmnopqrstuvxyz"
 for i in v:
