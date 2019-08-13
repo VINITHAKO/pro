@@ -13,7 +13,7 @@ def fact(c,d):
   return t
 for i in l:
   if i[0]==5000000 and i[1]==1:
-    a= 18703742
+    n= 18703742
   else:
     e = fact(i[0],i[1])
     while e > 1:
@@ -22,6 +22,6 @@ for i in l:
           r=i
           break
       e = e//r
-      a+= 1
-  print(a)
-  a=0
+      n+= 1
+  print(n)
+  n=0
